@@ -21,6 +21,10 @@ git clone https://github.com/gkl2013/alist_cache.git
 ## 3. 运行
 
 ```angular2html
+npm config set registry registry.npmmirror.com
+
+npm i
+
 pm2 start src/server.js --name alist_cache
 ```
 ## 4. 如何访问
