@@ -21,6 +21,8 @@ git clone https://github.com/gkl2013/alist_cache.git
 ## 3. 运行
 
 ```angular2html
+cd alist_cache
+
 npm config set registry registry.npmmirror.com
 
 npm i
@@ -33,7 +35,7 @@ pm2 start src/server.js --name alist_cache
 
 ## 注意事项
 
-项目第一次运行后会扫描整个网盘，为了防止风控，请求频率很低，约2s请求一次，我测试的115我 9T文件，花费时间约3小时， 可以通过日志查看扫描情况
+项目第一次运行后会扫描整个网盘，为了防止风控，请求频率很低，约2s请求一次，我测试的115我 9T文件, 8000文件，花费时间约3小时， 可以通过日志查看扫描情况
 
 ```angular2html
 pm2 log
