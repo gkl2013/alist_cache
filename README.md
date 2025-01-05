@@ -16,7 +16,7 @@ pm2
 git clone https://github.com/gkl2013/alist_cache.git
 ```
 
-## 2.修改配置 alist.json
+## 2.修改配置 alist.json， 建议账号只配置一个读取权限即可
 
 ## 3. 运行
 
@@ -39,3 +39,4 @@ pm2 log
 ```angular2html
 ===扫描完成====
 ```
+
